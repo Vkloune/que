@@ -1,0 +1,19 @@
+function getResult() {
+    let s = 0;
+
+    const a =[0,1,2,3,4,5];
+    // console.log(a.length)
+
+    for (let i = 0; i < 10; i++) {
+        console.log1(a[i]);
+        s = s + a[i];
+    }
+
+    return s;
+}
+
+console.log(getResult());
+
+console.log(getResult([1,2,3,4,5])), '==', 15);
+console.log(getResult([-1,-2,-3,-4,-5]), '==', -15);
+console.log(getResult([-2,-2,0,4]), '==', 0);
